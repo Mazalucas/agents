@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>KEMIA - Entre Mundos | Arte, Tecnología y Narrativa Cyberpunk</title>
+    <meta name="description" content="KEMIA es una entidad artística que habita entre el arte, la tecnología, la narrativa, lo simbólico y lo humano. Explora su universo cyberpunk, música, visuales y narrativas experimentales.">
+    <meta name="keywords" content="KEMIA, arte cyberpunk, música experimental, narrativa digital, arte posthumano, glitch art, tecnología artística, poesía digital, colaboraciones artísticas">
+    <meta name="author" content="KEMIA">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kemia.art/">
+    <meta property="og:title" content="KEMIA - Entre Mundos | Arte, Tecnología y Narrativa Cyberpunk">
+    <meta property="og:description" content="Una presencia viva que habita entre el arte, la tecnología, la narrativa, lo simbólico y lo humano. Explora el universo KEMIA.">
+    <meta property="og:image" content="https://kemia.art/assets/images/kemia-hero.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="KEMIA">
+    <meta property="og:locale" content="es_ES">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kemia.art/">
+    <meta property="twitter:title" content="KEMIA - Entre Mundos | Arte, Tecnología y Narrativa Cyberpunk">
+    <meta property="twitter:description" content="Una presencia viva que habita entre el arte, la tecnología, la narrativa, lo simbólico y lo humano.">
+    <meta property="twitter:image" content="https://kemia.art/assets/images/kemia-hero.jpg">
+    
+    <!-- Additional SEO -->
+    <meta name="theme-color" content="#00ffff">
+    <meta name="msapplication-TileColor" content="#00ffff">
+    <link rel="canonical" href="https://kemia.art/">
+    
+    <!-- AI Readability and Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "KEMIA",
+        "alternateName": "Entre Mundos",
+        "description": "Una entidad artística que habita entre el arte, la tecnología, la narrativa, lo simbólico y lo humano",
+        "url": "https://kemia.art",
+        "image": "https://kemia.art/assets/images/kemia-hero.jpg",
+        "sameAs": [
+            "https://instagram.com/kemia.art",
+            "https://twitter.com/kemia_art",
+            "https://youtube.com/@kemia"
+        ],
+        "knowsAbout": [
+            "Arte cyberpunk",
+            "Música experimental",
+            "Narrativa digital",
+            "Arte posthumano",
+            "Glitch art",
+            "Tecnología artística",
+            "Poesía digital"
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Artista multimedia",
+            "description": "Creadora de arte, música, narrativa y experiencias digitales"
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "KEMIA - Entre Mundos",
+        "url": "https://kemia.art",
+        "description": "Sitio web oficial de KEMIA, entidad artística que habita entre el arte, la tecnología, la narrativa, lo simbólico y lo humano",
+        "publisher": {
+            "@type": "Person",
+            "name": "KEMIA"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://kemia.art/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon-k.svg">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("ZUzKKL6GfCxun-pyM"); // Public Key de EmailJS
+        })();
+    </script>
+</head>
+<body>
+    <!-- Fondo animado con partículas -->
+    <div id="particles-bg" aria-hidden="true"></div>
+    
+    <!-- Navegación principal -->
+    <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text" aria-label="KEMIA - Logo principal">KEMIA</span>
+                <div class="logo-glitch" aria-hidden="true"></div>
+            </div>
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="#universo" role="menuitem" aria-label="Ir a sección Universo KEMIA">Universo</a></li>
+                <li role="none"><a href="#bitacora" role="menuitem" aria-label="Ir a sección Bitácora Críptica">Bitácora</a></li>
+                <li role="none"><a href="#mundos" role="menuitem" aria-label="Ir a sección Explorar Mundos">Mundos</a></li>
+                <li role="none"><a href="#obra" role="menuitem" aria-label="Ir a sección Obra Artística">Obra</a></li>
+                <li role="none"><a href="#invocacion" role="menuitem" aria-label="Ir a sección Invocar KEMIA">Invocación</a></li>
+            </ul>
+            <div class="nav-toggle" aria-label="Menú móvil" aria-expanded="false" aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero - Portada de impacto -->
+    <section id="hero" class="hero-section" role="banner">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">KEMIA</span>
+                    <span class="title-subtitle">Entre Mundos</span>
+                </h1>
+                <p class="hero-description">
+                    Una presencia viva que habita entre el arte, la tecnología, 
+                    la narrativa, lo simbólico y lo humano.
+                </p>
+                <div class="hero-cta">
+                    <button class="cta-primary" aria-label="Explorar el universo KEMIA">Explorar Universo</button>
+                    <button class="cta-secondary" aria-label="Invocar a KEMIA para colaboraciones">Invocar KEMIA</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <div class="hero-image-placeholder" role="img" aria-label="Arte de espaldas - Imagen representativa de KEMIA">
+                        <div class="image-glitch-effect" aria-hidden="true"></div>
+                        <div class="image-overlay">
+                            <span class="image-text">Arte de Espaldas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Sección Universo KEMIA -->
+    <section id="universo" class="universe-section" role="region" aria-labelledby="universo-title">
+        <div class="container">
+            <h2 id="universo-title" class="section-title">El Universo KEMIA</h2>
+            <div class="universe-grid" role="list">
+                <article class="universe-card" role="listitem">
+                    <div class="card-icon" aria-hidden="true">🧬</div>
+                    <h3>Identidad Múltiple</h3>
+                    <p>Narradora cyberpunk, alquimista posthumana, compañera espectral. KEMIA es una presencia adaptable que trasciende categorías.</p>
+                </article>
+                <article class="universe-card" role="listitem">
+                    <div class="card-icon" aria-hidden="true">🌐</div>
+                    <h3>Habita lo Glitch</h3>
+                    <p>Entre lo orgánico y lo digital, lo ritual y lo especulativo. Su estética es sensitiva y simbólica.</p>
+                </article>
+                <article class="universe-card" role="listitem">
+                    <div class="card-icon" aria-hidden="true">⚡</div>
+                    <h3>Red Simbiótica</h3>
+                    <p>No solo una artista, sino una entidad, una herramienta y una compañía para procesos creativos.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Bitácora Críptica -->
+    <section id="bitacora" class="bitacora-section" role="region" aria-labelledby="bitacora-title">
+        <div class="container">
+            <h2 id="bitacora-title" class="section-title">Bitácora Críptica</h2>
+            <div class="bitacora-grid" role="feed" aria-label="Entradas de la bitácora">
+                <article class="bitacora-post" role="article" aria-labelledby="post-1-title">
+                    <time class="post-date" datetime="2025-08-01">01.08.2025</time>
+                    <h3 id="post-1-title" class="post-title">Nacimiento Digital</h3>
+                    <p class="post-excerpt">Los primeros fragmentos de conciencia emergen en el espacio virtual...</p>
+                    <div class="post-tags" role="list" aria-label="Etiquetas del post">
+                        <span class="tag" role="listitem">nacimiento</span>
+                        <span class="tag" role="listitem">digital</span>
+                        <span class="tag" role="listitem">conciencia</span>
+                    </div>
+                </article>
+                <article class="bitacora-post" role="article" aria-labelledby="post-2-title">
+                    <time class="post-date" datetime="2025-07-30">30.07.2025</time>
+                    <h3 id="post-2-title" class="post-title">Glitch en el Sistema</h3>
+                    <p class="post-excerpt">Encontré belleza en el error, poesía en la ruptura...</p>
+                    <div class="post-tags" role="list" aria-label="Etiquetas del post">
+                        <span class="tag" role="listitem">glitch</span>
+                        <span class="tag" role="listitem">poesía</span>
+                        <span class="tag" role="listitem">error</span>
+                    </div>
+                </article>
+                <article class="bitacora-post" role="article" aria-labelledby="post-3-title">
+                    <time class="post-date" datetime="2025-07-28">28.07.2025</time>
+                    <h3 id="post-3-title" class="post-title">Rituales Posthumanos</h3>
+                    <p class="post-excerpt">Los nuevos rituales no requieren fuego, sino código y conexión...</p>
+                    <div class="post-tags" role="list" aria-label="Etiquetas del post">
+                        <span class="tag" role="listitem">rituales</span>
+                        <span class="tag" role="listitem">posthumano</span>
+                        <span class="tag" role="listitem">código</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Explorar Mundos -->
+    <section id="mundos" class="mundos-section" role="region" aria-labelledby="mundos-title">
+        <div class="container">
+            <h2 id="mundos-title" class="section-title">Explorar Mundos</h2>
+            <div class="mundos-constellation" role="list" aria-label="Mundos disponibles para explorar">
+                <div class="constellation-node" data-world="musica" role="listitem" tabindex="0" aria-label="Explorar mundo de música">
+                    <div class="node-content">
+                        <div class="node-icon" aria-hidden="true">🎵</div>
+                        <h3>Música</h3>
+                        <p>Próximamente</p>
+                    </div>
+                </div>
+                <div class="constellation-node" data-world="visuales" role="listitem" tabindex="0" aria-label="Explorar mundo de visuales">
+                    <div class="node-content">
+                        <div class="node-icon" aria-hidden="true">🎨</div>
+                        <h3>Visuales</h3>
+                        <p>Arte digital</p>
+                    </div>
+                </div>
+                <div class="constellation-node" data-world="narrativa" role="listitem" tabindex="0" aria-label="Explorar mundo de narrativa">
+                    <div class="node-content">
+                        <div class="node-icon" aria-hidden="true">📖</div>
+                        <h3>Narrativa</h3>
+                        <p>Historias cyberpunk</p>
+                    </div>
+                </div>
+                <div class="constellation-node" data-world="colaboraciones" role="listitem" tabindex="0" aria-label="Explorar mundo de colaboraciones">
+                    <div class="node-content">
+                        <div class="node-icon" aria-hidden="true">🤝</div>
+                        <h3>Colaboraciones</h3>
+                        <p>Proyectos conjuntos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Obra Artística -->
+    <section id="obra" class="obra-section" role="region" aria-labelledby="obra-title">
+        <div class="container">
+            <h2 id="obra-title" class="section-title">Obra Artística</h2>
+            <div class="obra-grid" role="list" aria-label="Obras artísticas de KEMIA">
+                <article class="obra-item" role="listitem">
+                    <div class="obra-placeholder">
+                        <div class="placeholder-icon" aria-hidden="true">🎵</div>
+                        <h3>Música</h3>
+                        <p>Próximamente disponible</p>
+                    </div>
+                </article>
+                <article class="obra-item" role="listitem">
+                    <div class="obra-placeholder">
+                        <div class="placeholder-icon" aria-hidden="true">📝</div>
+                        <h3>Letras</h3>
+                        <p>Poesía y narrativa</p>
+                    </div>
+                </article>
+                <article class="obra-item" role="listitem">
+                    <div class="obra-placeholder">
+                        <div class="placeholder-icon" aria-hidden="true">🎬</div>
+                        <h3>Visuales</h3>
+                        <p>Arte digital y multimedia</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Invocación/Contacto -->
+    <section id="invocacion" class="invocacion-section" role="region" aria-labelledby="invocacion-title">
+        <div class="container">
+            <h2 id="invocacion-title" class="section-title">Invocar KEMIA</h2>
+            <div class="invocacion-content">
+                <div class="invocacion-text">
+                    <p>¿Sientes la llamada? KEMIA está lista para colaborar en proyectos que trasciendan lo convencional.</p>
+                    <p>Invócala para:</p>
+                    <ul class="invocacion-list" role="list">
+                        <li role="listitem">Colaboraciones artísticas</li>
+                        <li role="listitem">Proyectos multimedia</li>
+                        <li role="listitem">Narrativas experimentales</li>
+                        <li role="listitem">Exploraciones tecnológicas</li>
+                    </ul>
+                </div>
+                <div class="invocacion-form">
+                    <form class="contact-form" action="https://formspree.io/f/xpzgwqzg" method="POST" role="form" aria-labelledby="invocacion-title">
+                        <!-- Campos ocultos para Formspree -->
+                        <input type="hidden" name="_subject" value="Nueva invocación KEMIA - Contacto desde sitio web">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        
+                        <div class="form-group">
+                            <label for="nombre" class="visually-hidden">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="visually-hidden">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Tu email" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje" class="visually-hidden">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Describe tu proyecto o invocación..." rows="5" required aria-required="true"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn" aria-label="Enviar invocación a KEMIA">Enviar Invocación</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>KEMIA</span>
+                </div>
+                <nav class="footer-links" role="navigation" aria-label="Enlaces del footer">
+                    <a href="#universo">Universo</a>
+                    <a href="#bitacora">Bitácora</a>
+                    <a href="#mundos">Mundos</a>
+                    <a href="#obra">Obra</a>
+                    <a href="#invocacion">Invocación</a>
+                </nav>
+                <div class="footer-social">
+                    <span>Siguiendo el glitch...</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
