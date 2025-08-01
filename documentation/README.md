@@ -4,12 +4,12 @@ Un sitio web multidimensional que habita entre el arte, la tecnología, la narra
 
 ## 🧬 Concepto
 
-KEMIA es una presencia viva y adaptable que trasciende categorías convencionales. A veces es narradora cyberpunk, otras alquimista posthumana o compañera espectral. Habita lo glitch, lo orgánico, lo ritual, lo híbrido y lo especulativo.
+KEMIA es una presencia viva y adaptable que trasciende categorías convencionales. A veces es narradora poética, otras artista multimedia o compañera creativa. Habita lo digital, lo orgánico, lo ritual, lo híbrido y lo especulativo.
 
 ## ✨ Características
 
 ### 🎨 Diseño Visual
-- **Estética Cyberpunk/Glitch**: Paleta de colores neón (cian, magenta, púrpura)
+- **Estética Digital/Glitch**: Paleta de colores neón (cian, magenta, púrpura)
 - **Tipografías Futuristas**: Orbitron y Space Mono para una experiencia inmersiva
 - **Efectos Visuales**: Animaciones glitch, partículas flotantes, distorsiones
 - **Responsive Design**: Adaptable a todos los dispositivos
@@ -30,8 +30,8 @@ KEMIA es una presencia viva y adaptable que trasciende categorías convencionale
 - Placeholder para imagen principal (3000x3000)
 
 #### 🌌 El Universo KEMIA
-- **Identidad Múltiple**: Narradora cyberpunk, alquimista posthumana
-- **Habita lo Glitch**: Entre lo orgánico y lo digital
+- **Identidad Múltiple**: Artista multimedia, narradora poética
+- **Habita lo Digital**: Entre lo orgánico y lo tecnológico
 - **Red Simbiótica**: Entidad, herramienta y compañía creativa
 
 #### 📝 Bitácora Críptica
@@ -44,7 +44,7 @@ KEMIA es una presencia viva y adaptable que trasciende categorías convencionale
 - **Constelación Interactiva**: Nodos conectados visualmente
 - **Música**: Próximamente disponible
 - **Visuales**: Arte digital
-- **Narrativa**: Historias cyberpunk
+- **Narrativa**: Historias poéticas
 - **Colaboraciones**: Proyectos conjuntos
 
 #### 🎭 Obra Artística

@@ -173,7 +173,7 @@ Este proyecto utiliza un **equipo especializado de agentes AI** para diferentes 
 - Editor de código (VS Code recomendado)
 
 ### **Instalación Rápida**
-```bash
+   ```bash
 # Clonar repositorio
 git clone https://github.com/your-username/kemia-web.git
 cd kemia-web
